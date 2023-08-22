@@ -1,0 +1,145 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin-left: 36%;
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+}
+.container .text{
+    position: relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    background-color: black;
+    border-bottom: 3px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+.inp2{
+    border: none;
+    background-color: black;
+    border-bottom: 3px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: rgb(28, 95, 146);
+    font-size: 24px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+body{
+    background-color: rgb(0 38 162 / 30%);
+}
+
+.t{
+    margin: auto;
+    height: 50em;
+    width: 70%;
+    background-color:white;
+    padding: 1%;
+    padding-bottom: 0%;    
+}
+
+@media  (max-width: 994px ) {
+.container{
+    position: relative;
+    right: 0px;
+}
+.t{
+    width: 88%;
+}
+}
+
+
+@media  (max-width: 815px ) {
+    .container{
+        position: relative;
+        right: 60px;
+    }
+    .t{
+        width: 88%;
+    }
+    }
+
+    @media  (max-width: 563px ) {
+        .container{
+            position: relative;
+            right: 60px;
+        }
+        .t{
+            width: 88%;
+        }
+        .container{
+            width: 250px;
+            height: 350px;
+            margin-left: 36%;
+            margin-top: 8%;
+        }
+
+        .inp1{
+            font-size: 22px;
+        }
+        .inp2{
+            font-size: 22px;
+        }
+        }
+
+
+
+    
+        
+        @media  (max-width: 287px ) {
+            .container{
+                position: relative;
+                right: 60px;
+            }
+            .t{
+                width: 88%;
+            }
+            .container{
+                width: 215px;
+                height: 350px;
+                margin-left: 30%;
+                margin-top: 50%;
+            }
+    
+            .inp1{
+                font-size: 22px;
+                width: 180px;
+            }
+            .inp2{
+                font-size: 22px;
+                width: 180px;
+            }  
+            
+            button{
+                position: relative;
+                right: 15px;
+                top: 10px;
+                scale: 0.75;
+
+            }
+        }
+
