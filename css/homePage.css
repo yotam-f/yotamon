@@ -293,5 +293,14 @@ h2{
 
 }
 
+@media only screen and (min-width: 393px) and (max-width: 767px) { 
+    h2{
+        position: absolute;
+        font-size:  1.23rem;
+        left: 0%;
+        top: 40%
+    }
+}
+
 
 
