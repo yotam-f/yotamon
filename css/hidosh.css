@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(0 38 162 / 30%);
+}
+.titele{
+    margin-bottom: -15px;
+    text-align: center;
+    font-size: 300%;
+   
+}
+.t{
+    margin: auto;
+    height: 50em;
+    width: 70%;
+    background-color:white;
+    padding: 1%;
+    padding-bottom: 0%;    
+}
+
+.crgelCalim{
+    font-size: x-large;
+    
+}
+.home{
+    text-decoration: none;
+    padding: 0.5%;
+    position: relative;
+    left: 950px;
+    color: rgba(64, 64, 64, 0.73);
+}
+
+.home:hover{
+    background-color: rgb(43, 156, 226);
+    transition:  0.5s ease-in-out;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+
+@media  (max-width: 1285.60px ) {
+    .home{
+        left: 750px;
+    }
+}
+
+@media  (max-width: 1050px ) {
+    .home{
+        left: 570px;
+    }
+}
+
+@media  (max-width: 416px) {
+.home{
+    left: 140px;
+}
+.t{
+    width: 88%;
+}
+h1{
+    font-size: 25px;
+}
+}
+@media  (max-width: 291px) {
+    .home{
+        left: 140px;
+        font-size: 21px;
+    }
+    .t{
+        width: 88%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    }
