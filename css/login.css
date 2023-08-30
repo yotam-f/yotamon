@@ -97,12 +97,21 @@ body{
             margin-left: 36%;
             margin-top: 8%;
         }
-
         .inp1{
             font-size: 22px;
+            width: 180px;
         }
         .inp2{
             font-size: 22px;
+            width: 180px;
+        }  
+                    
+        button{
+            position: relative;
+            right: 15px;
+            top: 10px;
+            scale: 0.75;
+
         }
         }
 
