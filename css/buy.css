@@ -132,7 +132,7 @@ body{
 
 @media only screen and (min-width: 393px) and (max-width: 767px) { 
 .r{
-    left: 40px;
+    right: 7px;
 }
 }
 @media  (max-width: 400px) {
