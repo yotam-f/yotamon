@@ -125,8 +125,7 @@ body{
 }
 @media  (max-width:530px ){
     .r{
-        display: block;
-        margin: auto;
+        right: 40px;
     }
 
 }
