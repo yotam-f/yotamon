@@ -130,10 +130,11 @@ body{
 
 }
 
-@media only screen and (min-width: 393px) and (max-width: 767px) { 
-.r{
-    right: 2px;
-}
+@media  (max-width:530px ){
+    .r{
+        right: 0px;
+    }
+
 }
 @media  (max-width: 400px) {
     .t{
