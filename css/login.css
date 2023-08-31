@@ -197,3 +197,11 @@ body{
 
             }
         }
+
+        @media only screen and (min-width: 393px) and (max-width: 767px) { 
+            button{
+                font-size: 9;
+                position: relative;
+                right: 10px;
+            }
+        }
