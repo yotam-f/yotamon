@@ -123,11 +123,10 @@ body{
 }
 
 }
-@media  (max-width:530px ){
+@media  (max-width:394px ){
     .r{
-        font-size: 10;
-        position: relative;
-        right: 30px;
+        left: 55px;
+
     }
 
 }
