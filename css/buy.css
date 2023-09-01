@@ -125,7 +125,9 @@ body{
 }
 @media  (max-width:530px ){
     .r{
-        right: 50px;
+        font-size: 10;
+        position: relative;
+        right: 30px;
     }
 
 }
